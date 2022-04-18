@@ -18,13 +18,3 @@ class Storage{
         return (this.get() == null || this.get() == undefined) ? true : false;
     }
 }
-const moscow = new Storage('moscow', localStorage, 26589);
-const rome = new Storage('rome', localStorage, 69);
-rome.set('Hello')
-console.log(rome.get())
-console.log(moscow.get());
-moscow.set(undefined);
-moscow.clear();
-console.log(moscow.get());
-console.log(moscow.isEmpty());
-
