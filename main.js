@@ -24,7 +24,7 @@ rome.set('Hello')
 console.log(rome.get())
 console.log(moscow.get());
 moscow.set(undefined);
-//moscow.clear();
+moscow.clear();
 console.log(moscow.get());
 console.log(moscow.isEmpty());
 
